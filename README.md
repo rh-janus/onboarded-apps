@@ -1,1 +1,1 @@
-# onboarded-apps
+# Catalog of onboarded applications
