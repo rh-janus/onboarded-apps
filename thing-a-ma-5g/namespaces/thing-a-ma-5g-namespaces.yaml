@@ -1,0 +1,48 @@
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: thing-a-ma-5g-build
+  labels:
+    app : thing-a-ma-5g
+    team: acme-corp
+    build-namespace: thing-a-ma-5g-build
+    environment: build
+    argocd.argoproj.io/managed-by: thing-a-ma-5g-build
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: thing-a-ma-5g-dev
+  labels:
+    app : thing-a-ma-5g
+    team: acme-corp
+    build-namespace: thing-a-ma-5g-build
+    environment: dev
+    argocd.argoproj.io/managed-by: thing-a-ma-5g-build
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: thing-a-ma-5g-test
+  labels:
+    app : thing-a-ma-5g
+    team: acme-corp
+    build-namespace: thing-a-ma-5g-build
+    environment: test
+    argocd.argoproj.io/managed-by: thing-a-ma-5g-build
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: thing-a-ma-5g-prod
+  labels:
+    app : thing-a-ma-5g
+    team: acme-corp
+    build-namespace: thing-a-ma-5g-build
+    environment: prod
+    argocd.argoproj.io/managed-by: thing-a-ma-5g-build
