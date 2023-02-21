@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: thing-a-ma-5g
-  description: System
-  labels:
-    environments: build-dev-test-prod
-spec:
-  owner: acme-corp
